@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace resorthub
 {
-    public partial class kiosk : Form
+    public partial class admin_log_in : Form
     {
-        public kiosk()
+        public admin_log_in()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void kiosk_Load(object sender, EventArgs e)
+        private void admin_log_in_Load(object sender, EventArgs e)
         {
 
         }
