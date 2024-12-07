@@ -19,7 +19,8 @@ namespace resorthub
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+           admin_log_in f = new admin_log_in();
+            f.Show();
         }
 
         private void kiosk_Load(object sender, EventArgs e)
