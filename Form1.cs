@@ -27,5 +27,11 @@ namespace resorthub
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            admin_log_in f = new admin_log_in();
+            f.Show();
+        }
     }
 }
