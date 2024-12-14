@@ -21,7 +21,7 @@ namespace resorthub
         {
            admin_log_in f = new admin_log_in();
             f.Show();
-            f.Hide();
+            this.Hide();
         }
 
         private void kiosk_Load(object sender, EventArgs e)
@@ -31,9 +31,14 @@ namespace resorthub
 
         private void button2_Click(object sender, EventArgs e)
         {
-            admin_log_in f = new admin_log_in();
+            Form2 f = new Form2();
             f.Show();
-            f.Hide();
+            this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
