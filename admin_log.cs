@@ -21,5 +21,12 @@ namespace resorthub
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            kiosk f = new kiosk();
+            f.Show();
+            this.Hide();
+        }
     }
 }
