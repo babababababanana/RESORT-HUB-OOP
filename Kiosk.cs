@@ -31,9 +31,7 @@ namespace resorthub
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 f = new Form2();
-            f.Show();
-            this.Hide();
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
