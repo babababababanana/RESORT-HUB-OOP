@@ -52,6 +52,7 @@
     <Compile Include="admin_log.Designer.cs">
       <DependentUpon>admin_log.cs</DependentUpon>
     </Compile>
+    <Compile Include="admin_login.cs" />
     <Compile Include="Kiosk.cs">
       <SubType>Form</SubType>
     </Compile>
