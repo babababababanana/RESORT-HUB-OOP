@@ -57,19 +57,70 @@
       <DependentUpon>admin_log.cs</DependentUpon>
     </Compile>
     <Compile Include="admin_login.cs" />
+    <Compile Include="CALENDAR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CALENDAR.Designer.cs">
+      <DependentUpon>CALENDAR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONFIRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CONFIRM.Designer.cs">
+      <DependentUpon>CONFIRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTACT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CONTACT.Designer.cs">
+      <DependentUpon>CONTACT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DASHBOARD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DASHBOARD.Designer.cs">
+      <DependentUpon>DASHBOARD.cs</DependentUpon>
+    </Compile>
     <Compile Include="Kiosk.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Kiosk.Designer.cs">
       <DependentUpon>Kiosk.cs</DependentUpon>
     </Compile>
+    <Compile Include="OPTION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPTION.Designer.cs">
+      <DependentUpon>OPTION.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ROOMS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ROOMS.Designer.cs">
+      <DependentUpon>ROOMS.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="admin_log.resx">
       <DependentUpon>admin_log.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CALENDAR.resx">
+      <DependentUpon>CALENDAR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CONFIRM.resx">
+      <DependentUpon>CONFIRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CONTACT.resx">
+      <DependentUpon>CONTACT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DASHBOARD.resx">
+      <DependentUpon>DASHBOARD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Kiosk.resx">
       <DependentUpon>Kiosk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPTION.resx">
+      <DependentUpon>OPTION.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,6 +131,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ROOMS.resx">
+      <DependentUpon>ROOMS.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
