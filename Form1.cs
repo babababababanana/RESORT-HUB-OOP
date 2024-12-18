@@ -10,18 +10,18 @@ using System.Windows.Forms;
 
 namespace resorthub
 {
-    public partial class DASHBOARD : Form
+    public partial class Form1 : Form
     {
-        public DASHBOARD()
+        public Form1()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            OPTION n = new OPTION();
+            admin_log_in n = new admin_log_in();
             n.Show();
-            this.Hide();
+            this.Close();
         }
     }
 }

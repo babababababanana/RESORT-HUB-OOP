@@ -37,6 +37,7 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.endbtn = new System.Windows.Forms.Label();
             this.monthCalendar2 = new System.Windows.Forms.MonthCalendar();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // monthCalendar1
@@ -62,7 +63,7 @@
             // CLEAR
             // 
             this.CLEAR.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.CLEAR.Location = new System.Drawing.Point(129, 409);
+            this.CLEAR.Location = new System.Drawing.Point(302, 409);
             this.CLEAR.Margin = new System.Windows.Forms.Padding(2);
             this.CLEAR.Name = "CLEAR";
             this.CLEAR.Size = new System.Drawing.Size(92, 33);
@@ -118,6 +119,18 @@
             this.monthCalendar2.TabIndex = 20;
             this.monthCalendar2.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar2_DateChanged_1);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button1.Location = new System.Drawing.Point(72, 409);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(92, 33);
+            this.button1.TabIndex = 21;
+            this.button1.Text = "BACK";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // CALENDAR
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -125,6 +138,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(814, 488);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.monthCalendar2);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.endbtn);
@@ -154,5 +168,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label endbtn;
         private System.Windows.Forms.MonthCalendar monthCalendar2;
+        private System.Windows.Forms.Button button1;
     }
 }

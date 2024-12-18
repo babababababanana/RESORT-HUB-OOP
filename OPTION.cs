@@ -61,5 +61,12 @@ namespace resorthub
                 a.Show();
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            info m = new info();
+            m.Show();
+            this.Hide();
+        }
     }
 }

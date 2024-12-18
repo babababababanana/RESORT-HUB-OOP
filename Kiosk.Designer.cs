@@ -67,7 +67,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "kiosk";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "kiosk";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.kiosk_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
