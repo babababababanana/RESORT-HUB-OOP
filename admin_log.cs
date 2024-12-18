@@ -37,7 +37,7 @@ namespace resorthub
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            
+            optionclass.label = optionclass.label = textBox1.Text;
             
 
 
@@ -45,7 +45,13 @@ namespace resorthub
            if(admin.validate_textbox(textBox1,textBox2))
             {
                admin.log(textBox1, textBox2);
-
+               
+            }
+            else
+            {
+                this.Hide();
+                kiosk f = new kiosk();
+                f.Show();
             }
             
         }  

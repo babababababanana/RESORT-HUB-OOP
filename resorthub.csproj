@@ -63,6 +63,7 @@
     <Compile Include="CALENDAR.Designer.cs">
       <DependentUpon>CALENDAR.cs</DependentUpon>
     </Compile>
+    <Compile Include="CalendarClass1.cs" />
     <Compile Include="CONFIRM.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +94,7 @@
     <Compile Include="OPTION.Designer.cs">
       <DependentUpon>OPTION.cs</DependentUpon>
     </Compile>
+    <Compile Include="optionclass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ROOMS.cs">
@@ -101,6 +103,7 @@
     <Compile Include="ROOMS.Designer.cs">
       <DependentUpon>ROOMS.cs</DependentUpon>
     </Compile>
+    <Compile Include="RoomsClass1.cs" />
     <EmbeddedResource Include="admin_log.resx">
       <DependentUpon>admin_log.cs</DependentUpon>
     </EmbeddedResource>

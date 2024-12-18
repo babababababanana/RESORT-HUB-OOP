@@ -15,6 +15,13 @@ namespace resorthub
         public ROOMS()
         {
             InitializeComponent();
+            textBox1.Text = CalendarClass1.start;
+            textBox2.Text = CalendarClass1.end;
+        }
+
+        private void ROOMS_Load(object sender, EventArgs e) 
+        {
+            
         }
     }
 }

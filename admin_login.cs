@@ -17,23 +17,27 @@ namespace resorthub
 
       
 
-        public void log(TextBox user,TextBox pass)
+        public TextBox log(TextBox user,TextBox pass)
         {
           username = user.Text;
+
                 
 
             if (pass.Text == "admin")
             {
                 password = pass.Text;
-                MessageBox.Show("WELCOME");
-                kiosk F = new kiosk();
+                MessageBox.Show("welcome");
+                OPTION F = new OPTION();
                 F.Show();
+                return pass;
+                
          
             
             }
             else
             {
                 MessageBox.Show("wrong username or pass", "inavalid");
+                return null;
             }    
 
         }

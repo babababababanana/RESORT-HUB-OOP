@@ -26,5 +26,10 @@ namespace resorthub
         {
 
         }
+
+        private void CONTACT_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
